@@ -3,3 +3,12 @@
 // times as the input number
 //
 // Name the function "finalFunction"
+
+function finalFunction () {
+    let userNum = prompt('Please enter a number ')
+    let arr = []
+    for (i = 0; i < userNum; i++) {
+        arr.push("hello")
+    }
+    return arr
+}
